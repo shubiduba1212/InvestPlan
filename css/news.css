@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+
+section#sec_01{height:280px; background-position:50% 33%; margin-bottom:13px;}
+section#sec_01 .clould{ height: 400px;
+  background-position:0% 100%; }
+section#sec_01 .clould .sec_01_inn h2 { font-size: 24px; text-align: center; position: relative; top:60px; padding-bottom: 36px; font-weight: normal; color: #5c5c5c; vertical-align: baseline; text-transform: uppercase;}
+section#sec_01 .clould .sec_01_inn h2 span { font-weight: 500;}
+
+
+#news_cont { width:100%; background-color:#fff; font-weight: normal; }
+#news_cont .wrap { width: 1200px; margin: 0 auto; padding-bottom: 60px;}
+#news_cont .news_bx { width: calc(100% / 12 * 10);
+  height: 165px; position: relative; margin: 0 auto; padding: 20px 0;
+  border-bottom: 1px solid #5e889e;}
+#news_cont .news_bx:first-child { border-top: 1px solid #5e889e;}  
+#news_cont .news_bx .news_img { width: calc(100% / 10 * 3 - 20px); height: 125px; margin: 0 10px; 
+  background-size: cover;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+position: absolute; left:0;}
+#news_cont .news_bx:nth-child(1) .news_img { background-image: url(../img/sub/news_01.jpg);}
+#news_cont .news_bx:nth-child(2) .news_img { background-image: url(../img/sub/news_02.jpg);}
+#news_cont .news_bx:nth-child(3) .news_img { background-image: url(../img/sub/news_03.jpg);}
+#news_cont .news_bx:nth-child(4) .news_img { background-image: url(../img/sub/news_04.jpg);}
+#news_cont .news_bx:nth-child(5) .news_img { background-image: url(../img/sub/news_05.jpg);}
+#news_cont .news_bx .news_txt {position: absolute; right:0; width: calc(100% / 10 * 7 - 20px); margin: 0 10px;}
+#news_cont .news_bx .news_txt h3 { font-weight: normal; font-size: 18px; color:#5e889e; padding-bottom: 20px;}
+#news_cont .news_bx .news_txt p { font-size: 14px; color:#5c5c5c;}
+#news_cont .news_bx span { position: absolute; right:0; bottom:20px;}
+#news_cont .news_bx span em { font-size: 14px; color:#5c5c5c;}
+
+#news_cont .news_bx:nth-child(4) .news_txt p { letter-spacing: -0.1px; }
+
+
+
+
+
+

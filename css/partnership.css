@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+
+section#sec_01{height:280px; background-position:50% 33%; margin-bottom:13px;}
+section#sec_01 .clould{ height: 400px;
+  background-position:0% 100%; }
+section#sec_01 .clould .sec_01_inn h2 { font-size: 24px; text-align: center; position: relative; top:60px; padding-bottom: 36px; font-weight: 500; color: #5c5c5c; vertical-align: baseline; font-weight: normal;}
+
+
+#par_cont { width:100%; background-color:#fff; }
+#par_cont .wrap { width: 1200px; margin: 0 auto;}
+#par_cont .par_txt { width: calc(100% / 12 * 10 - 20px); padding: 4px 0 40px; margin: 0 auto;}
+#par_cont .par_txt p {font-size: 14px; line-height: 16px;color:#5c5c5c; }
+
+#comission { width:calc(100% / 12 * 10 - 20px); margin: 0 auto; padding-bottom: 60px; font-size: 0;}
+
+#comission .comis_bx {width:calc(100% / 2 - 20px); 
+  height: 310px; 
+  margin: 0 10px; padding:30px; 
+  display: inline-block; position: relative;
+border: 1px solid #5e889e;
+border-radius: 3px; } 
+
+#comission h3 { font-size: 18px; color:#5e889e; padding-bottom: 20px;}
+#comission h3 span { font-size: 24px; }
+#comission .comis_bx p {font-size: 14px; font-weight: bold; color:#5c5c5c;}
+#comission .comis_bx button { position: absolute; bottom:30px; width: 250px; height: 40px; color:#fff; font-size: 16px; 
+  font-weight: bold;
+  background: #5e889e; 
+  border:none;
+border-radius: 3px;
+cursor: pointer;}
+
+#comission .comis_bx .c_img { position: absolute; right:10px; bottom:0;}
+#comission .comis_bx .c_img img { height: 140px;}
+
+#represent { width:calc(100% / 12 * 10 - 20px); margin: 0 auto;}
+#represent h2 { font-size: 24px; color:#5c5c5c;font-weight: 500; padding-bottom: 40px; text-align: center;}
+#represent h2 span { font-weight: bold;}
+
+#represent ul { width: 800px; margin: 0 auto; font-size: 0;}
+#represent ul li { display: inline-block; 
+  width:calc(25% - 20px); height: 100px; 
+  margin: 0 10px 20px; }
+#represent ul li:nth-child(9) { margin-bottom: 40px;}  
+#represent ul li:nth-child(10){ margin-bottom: 40px;}  
+#represent ul li a { display: block; width: 100%; height: 100px;
+  background-size: cover;
+  background-position: 50% 50%;
+background-repeat: no-repeat;}
+
+#represent ul li:nth-child(1) a { background-image: url(../img/managers/m_01.jpg);}
+#represent ul li:nth-child(2) a { background-image: url(../img/managers/m_02.jpg);}
+#represent ul li:nth-child(3) a { background-image: url(../img/managers/m_03.jpg);}
+#represent ul li:nth-child(4) a { background-image: url(../img/managers/m_04.jpg);}
+#represent ul li:nth-child(5) a { background-image: url(../img/managers/m_05.jpg);}
+#represent ul li:nth-child(6) a { background-image: url(../img/managers/m_06.jpg);}
+#represent ul li:nth-child(7) a { background-image: url(../img/managers/m_07.jpg);}
+#represent ul li:nth-child(8) a { background-image: url(../img/managers/m_08.jpg);}
+#represent ul li:nth-child(9) a { background-image: url(../img/managers/m_09.jpg);}
+#represent ul li:nth-child(10) a { background-image: url(../img/managers/m_10.jpg);}
+
+
+
+
+
+

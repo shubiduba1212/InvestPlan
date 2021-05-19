@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+
+section#sec_01{height:280px; background-position:50% 33%; margin-bottom:13px;}
+section#sec_01 .clould{ height: 400px;
+  background-position:0% 100%; }
+section#sec_01 .clould .sec_01_inn h2 { font-size: 24px; text-align: center; position: relative; top:60px; padding-bottom: 36px; font-weight: normal; color: #5c5c5c; vertical-align: baseline; text-transform: uppercase;}
+section#sec_01 .clould .sec_01_inn h2 span { font-weight: 500;}
+
+
+#login_cont { width:100%; background-color:#fff;  }
+#login_cont .wrap { width: 1200px; margin: 0 auto;padding: 40px 0 80px;}
+#login_cont .login_bx { width: calc(100% / 12 * 6); height: 600px; margin: 0 auto; padding: 50px 70px; border: 1px solid #ececec; text-align: center;}
+#login_cont .login_bx h2 { color: #5c5c5c; font-size: 48px; font-weight: 500; font-weight: normal; text-align: left; padding-bottom: 60px;}
+#login_cont .login_bx h2 span { font-weight: bold;}
+
+#login_cont .login_bx input { width:100%; height: 50px;  border:none; border-bottom: 2px solid #ccc; margin-bottom: 20px;}
+#login_cont .login_bx input::placeholder { font-size: 20px; color:#ccc; line-height: 1; }
+#login_cont .login_bx .log_check {position: relative; height: 50px; padding-bottom: 20px;}
+#login_cont .login_bx .log_check input { width: 20px; height: 20px; position: absolute; left:0; line-height: 20px;}
+#login_cont .login_bx .log_check > p { position: absolute; left:30px; top:2px; line-height: 20px; font-size: 16px;  color:#5c5c5c;}
+
+#login_cont .login_bx .log_btn_bx {  width: 100%;}
+#login_cont .login_bx .log_btn_bx .log_or {position: relative; width: 100%; height: 50px;}
+#login_cont .login_bx .log_btn_bx .log_bar { border-top: 1px solid #ccc; position: absolute; top:50%; transform:translateY(-50%);width: 100%;}
+#login_cont .login_bx .log_btn_bx p { position: absolute; font-size: 16px; color: #ccc; left:50%; transform:translateX(-50%); background-color: #fff;
+padding:0 10px; line-height: 50px;}
+#login_cont .login_bx .log_btn_bx button {width: 100%; height: 50px; border:0; border-radius:4px; background-color: #5e889e;
+font-size: 20px;
+color:#fff; 
+cursor: pointer;}
+#login_cont .login_bx .log_btn_bx button i { font-size: 20px; color:#fff; padding-right:10px;}
+
+#login_cont .login_bx .log_bottom {padding: 20px 0; width: 100%;}
+#login_cont .login_bx .log_bottom ul {position: relative; width: 100%; height: 50px; }
+#login_cont .login_bx .log_bottom ul li {position: absolute; padding:0 10px; line-height: 1;}
+#login_cont .login_bx .log_bottom ul li:first-child { left:0; text-align: left;}
+#login_cont .login_bx .log_bottom ul li:nth-child(2) {display: inline-block; right:93px; }
+#login_cont .login_bx .log_bottom ul li:nth-child(3) { display: inline-block;  border-left: 1px solid #5e889e; line-height: 1;
+  right:0; }
+
+#login_cont .login_bx .log_bottom ul li a {display: block;
+  color: #5e889e; }
